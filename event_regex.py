@@ -25,4 +25,3 @@ def search(event, event_reader, pattern):
     results = re.findall(pattern, event.event_string)
     return results
 
-    
